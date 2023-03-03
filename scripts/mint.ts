@@ -24,10 +24,10 @@ const main = async () => {
   );
 
   const uri: string =
-    "ipfs://QmZ8CucKZoq7uabvMHUMaqhyWSFNoDaVF99EW8qpmLMLk7";
+    "ipfs://<METADATA CID>";
   
   const address: string =
-    "0x3c7dbFaD5c91e22bb678291dfB8A42320FcFFA91";
+    "<Addres who receive NFT>";
   
   delay(5000);
   // batch mint for Jacket
