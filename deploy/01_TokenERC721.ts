@@ -12,8 +12,8 @@ const deploy: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployer } = await getNamedAccounts();
   const { deploy } = deployments;
 
-const _tokenName = "Eludius18 NFT";
-const _tokenSymbol = "ETR";
+const _tokenName = "<Token Name>";
+const _tokenSymbol = "<Token Symbol>";
 
   const tokenerc721 = await deploy("TokenERC721", {
     from: deployer,
